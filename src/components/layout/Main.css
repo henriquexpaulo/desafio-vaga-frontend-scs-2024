@@ -1,0 +1,45 @@
+.cardsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  padding: 92px 140px; 
+  background: #ffffff;
+  transition: background 0.3s ease-in-out; 
+}
+
+.arrowContainer {
+  padding-top: 130px;
+  margin-left: 10px;
+  padding-left: 2px;
+}
+
+.arrowContainerRight{
+  padding-top: 130px;
+  margin-left: 10px;
+  padding-left: 2px;
+}
+
+.arrowIconRight{
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.arrowIcon {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.arrowIcon:hover {
+  transform: scale(1.4) rotate(15deg); 
+}
+
+.arrowIconRight:hover{
+  transform: scale(1.4) rotate(15deg); 
+}
+
+
